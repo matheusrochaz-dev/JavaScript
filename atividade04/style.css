@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(48, 117, 182);
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+
+#conteudo {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.75);  
+    width: 600px;
+    border-radius: 50px;
+    margin: auto;
+    text-align: left;
+    padding: 30px;
+}
+
+.campo label{
+    width: 120px; /* deixa todos alinhados */
+    font-size: 2em;
+}
+
+input[type="number"]{
+    font-size: 1.2em;
+}
+
+select{
+    font-size: 1.2em;
+}
+
+input[type="button"]{
+    font-size: 1.2em
+}
+.campo{
+    display: flex;
+    gap: 20px;
+}
+
+
+p{
+    font-size: 2em;
+    color: black; 
+}
